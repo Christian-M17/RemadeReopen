@@ -1,0 +1,105 @@
+body{background: #ECECEC;
+    font-family: 'Roboto', sans-serif;
+overflow-x: hidden;}
+
+#corpo{
+text-align: center;
+padding-top: 4em;
+width: 95vw;
+margin: 0 auto;
+margin-top: 1.5em;
+background: white;}
+
+#linhas{
+    position: relative;
+    top: 10px;
+    left: 80%;
+    cursor :pointer}
+
+#linhas div{
+position: relative;    
+height:4px;
+width: 20px;
+margin-bottom:3px;
+background-color: #c2c2c2;}
+
+#logo{width: 2em;
+cursor: pointer;}
+
+#logo:hover {opacity: 50%;}
+
+h1{padding-top: 5em;
+    font-size: 1.5em;
+    line-height:30px;
+    font-weight:300;
+    height:3em}
+
+b{font-weight:1000}
+
+
+span{
+font-size: 1.5em;
+color: #f277ae;
+animation-name: pulse;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-play-state: running;}
+@keyframes pulse {
+0%{font-size:1.4em}
+50%{font-size:1.5em}
+100%{font-size:1.6em}
+            }
+h2{color:#7e7e7e;
+    padding-top: 1em;
+    font-size: 1em}
+
+    #Imagens{position: relative;
+    top:5em;}
+    
+    #Imagens img{
+    padding:1em;
+cursor: pointer;}
+
+.linha1{position:relative;
+    bottom: 17.5em}
+
+.linha2{position:relative;
+bottom:17.5em}
+
+#img5{position: relative;
+    bottom:17.5em;}
+
+.linha3{position:relative;
+    right:12.5em;    
+    bottom:16.5em;}
+
+#img8{position:relative;
+    left: 12.5em;
+    bottom:34.5em;}
+
+ #img9{position:relative;
+    right:13em;
+    bottom:16.5em;}
+
+#seta{
+    position:relative ;
+    bottom:12em;
+    width:7em;
+    cursor:pointer;}
+
+
+#grow :hover{
+    transform: scale(1.1); 
+}
+
+h3{position:relative;
+    bottom:6em;}
+
+#icones img{
+    padding:0.5em;
+    width:1em;}
+
+#icones{position:relative;
+bottom:6em;}
